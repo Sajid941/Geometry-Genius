@@ -46,3 +46,27 @@ function parallelogramCalculate(){
         const area = width*height;
         showResult('parallelogram-area',area)
 }
+
+//Rhombus Calculate
+function rhombusCalculate(){
+        const diagonal1 =Area('rhombus-diagonal-1');
+        const diagonal2 =Area('rhombus-diagonal-2');
+        const area = 0.5*diagonal1*diagonal2;
+        showResult('rhombus-area',area)
+}
+
+//Pentagon Calculate
+function pentagonCalculate(){
+        const p =Area('pentagon-p');
+        const b =Area('pentagon-b');
+        const area =0.5*p*b;
+        showResult('pentagon-area',area)
+}
+
+//Ellipse Calculate
+function ellipseCalculate(){
+        const a = Area('ellipse-a');
+        const b =Area('ellipse-b');
+        const area= 3.1416 *a*b;
+        showResult('ellipse-area',area);
+}
